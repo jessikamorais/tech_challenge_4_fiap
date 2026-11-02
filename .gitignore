@@ -1,0 +1,24 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.pt
+data/raw/*
+data/reports/*
+data/alerts/*.jsonl
+!data/**/.gitkeep
+
+# CholecT50 (CC BY-NC-SA: não versionar o dataset convertido) e modelos treinados
+data/cholect50*/
+models/*.pt
+runs/
+data/downloads/
+data/demo/
+
+# Jupyter / SO
+.ipynb_checkpoints/
+.DS_Store
+
+# Dados sintéticos gerados por clipe no Colab (os de P001 em data/samples são versionados)
+data/samples/*CHOLECT*

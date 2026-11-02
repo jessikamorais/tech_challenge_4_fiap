@@ -1,0 +1,7 @@
+timestamp,drug,dose_mg,patient_id
+2026-10-24 08:00:00,varfarina,5,P001
+2026-10-25 08:00:00,varfarina,5,P001
+2026-10-26 08:00:00,varfarina,10,P001
+2026-10-25 08:00:00,aas,100,P001
+2026-10-24 08:00:00,losartana,50,P001
+2026-10-26 08:00:00,losartana,0,P001

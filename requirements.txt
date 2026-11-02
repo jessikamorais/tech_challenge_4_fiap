@@ -1,0 +1,26 @@
+# Núcleo
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+python-dotenv>=1.0
+requests>=2.31
+pytest>=8.0
+
+# Vídeo
+ultralytics>=8.2        # YOLOv8 (detecção + pose COCO de 17 keypoints)
+opencv-python>=4.9
+pillow>=10.0         # conversão do CholecT50
+pyyaml>=6.0
+
+# Áudio
+librosa>=0.10
+soundfile>=0.12
+azure-cognitiveservices-speech>=1.38   # Azure Speech to Text
+azure-ai-textanalytics>=5.3            # Azure AI Language (Text Analytics)
+
+# Alertas
+azure-eventgrid>=4.18
+azure-core>=1.30
+
+# Dashboard
+streamlit>=1.35
